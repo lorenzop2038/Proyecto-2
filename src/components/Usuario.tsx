@@ -30,11 +30,9 @@ export const Usuario = () => {
             {
                 (!user)
                 ?    <pre> No hay usuario </pre>
-                !    <pre>{ JSON.stringify( user ) }</pre>
-
+                :    <pre>{ JSON.stringify( user ) }</pre>
             }
-
-         
+            
         </div>
     )
 }
