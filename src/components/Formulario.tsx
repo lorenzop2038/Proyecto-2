@@ -11,7 +11,7 @@ export const Formulario = () => {
 
     const { nombre, email, edad, handleChange, formulario } = useForm<FormData>({
         email: "lorenzo@gmail.com",
-        nombre: "Lorenzo Perez",
+        nombre: "Lorenzo Perez", 
         edad: 35
     });
 
