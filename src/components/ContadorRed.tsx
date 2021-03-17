@@ -44,7 +44,7 @@ const ContadorReducer = ( state: typeof initialState, action: ActionType ) => {
 
 export const ContadorRed = () => {
 
-    const [ contador, dispatch ] = useReducer(ContadorReducer, initialState);
+    const [ { contador }, dispatch ] = useReducer(ContadorReducer, initialState);
 
 
     return(
